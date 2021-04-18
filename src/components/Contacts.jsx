@@ -2,11 +2,11 @@ import React from "react";
 import git from "../img/github.svg";
 const Contacts = () => {
   return (
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
+    <section id="contact" className="contact-section">
+      <div className="contact-section-header">
         <h2>Let's work together...</h2>
       </div>
-      <div class="contact-links">
+      <div className="contact-links">
         <a
           id="profile-link"
           rel="noreferrer"

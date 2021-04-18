@@ -9,13 +9,13 @@ const Home = () => {
         <div className="mountain_btm_right"></div>
 
         <div className="overlayerr">
-          <h1 class="tx">Hello world...</h1>
+          <h1 className="tx">Hello world...</h1>
         </div>
       </div>
       <section>
-        <div class="container">
+        <div className="container">
           <h1 className="txt">about</h1>
-          <div class="box">
+          <div className="box">
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
               molestie erat nec volutpat mollis. Duis turpis justo, tincidunt id

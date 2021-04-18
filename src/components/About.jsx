@@ -2,9 +2,9 @@ import React from "react";
 const About = () => {
   return (
     <section>
-      <div class="container">
+      <div className="container">
         <h1 className="txt">about</h1>
-        <div class="box">
+        <div className="box">
           <p className="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             molestie erat nec volutpat mollis. Duis turpis justo, tincidunt id
