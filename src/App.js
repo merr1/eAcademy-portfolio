@@ -9,20 +9,23 @@ function App() {
   return (
     <Router>
       <div className="header">
-        <div className="logo">Merr1</div>
+        <div>
+          <Link to="/">
+            <li className="logo">Merr1</li>
+          </Link>
+        </div>
         <div className="menu">
-          <div className="item">
-            <Link to="/">Home</Link>
-          </div>
-          <div className="item">
-            <Link to="/about">About</Link>
-          </div>
-          <div className="item">
-            <Link to="/contact">Contact</Link>
-          </div>
-          <div className="item">
-            <Link to="/projects">Projects</Link>
-          </div>
+          <Link to="/about">
+            <li className="item">about</li>
+          </Link>
+
+          <Link to="/projects">
+            <li className="item">projects</li>
+          </Link>
+
+          <Link to="contact">
+            <li className="item">contact</li>
+          </Link>
         </div>
       </div>
       <Switch>

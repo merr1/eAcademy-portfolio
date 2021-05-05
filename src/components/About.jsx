@@ -1,22 +1,13 @@
 import React from "react";
+import girl from "../img/girl.png";
 const About = () => {
   return (
-    <section>
-      <div className="container">
-        <h1 className="txt">about</h1>
-        <div className="box">
-          <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            molestie erat nec volutpat mollis. Duis turpis justo, tincidunt id
-            cursus et, rutrum vel sapien. Sed in tortor leo. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Curabitur sit amet
-            ornare tortor, sed vehicula diam. Fusce id gravida odio, in molestie
-            nunc. Sed gravida, leo et posuere posuere, diam mi accumsan eros, eu
-            auctor lect.
-          </p>
-        </div>
+    <div className="container">
+      <div className="photo">
+        <img classname="girl" src={girl} alt="girl" />
       </div>
-    </section>
+      <div>text</div>
+    </div>
   );
 };
 
