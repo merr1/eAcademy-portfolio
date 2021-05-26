@@ -1,5 +1,6 @@
 import React from "react";
 import Type from "typewriter-effect";
+import girl from "../img/girll.gif";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Type
           onInit={(type) => {
             type
+
               .typeString("Merr1")
               .pauseFor(500)
               .deleteAll()
@@ -20,6 +22,8 @@ const Home = () => {
           }}
         />
       </div>
+
+      <img alt="girl" src={girl} />
     </div>
   );
 };

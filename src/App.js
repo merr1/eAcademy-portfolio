@@ -3,13 +3,19 @@ import Home from "./components/Home";
 import Projects from "./components/projects";
 import Contacts from "./components/Contacts";
 import About from "./components/About";
+import loader from "./img/loader.gif";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
-  return (
+  const [load, setLoad] = useState(false);
+  setTimeout(() => {
+    setLoad(true);
+  }, 5200);
+  return load ? (
     <Router>
       <div className="header">
-        <div>
+        <div className="log">
           <Link to="/">
             <li className="logo">Merr1</li>
           </Link>
@@ -43,6 +49,10 @@ function App() {
         </Route>
       </Switch>
     </Router>
+  ) : (
+    <div className="wrapper">
+      <img alt="loader" src={loader} />
+    </div>
   );
 }
 
