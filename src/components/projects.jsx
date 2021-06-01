@@ -21,8 +21,7 @@ const Projects = () => {
     },
     {
       name: "quiz app",
-      demoHref:
-        "https://e-academy-quiz-app-final-project-rd98qo5ir-merr1.vercel.app/",
+      demoHref: "https://e-academy-quiz-app-final-project.vercel.app/quiz/",
       sourceHref: "https://github.com/merr1/eAcademy-quiz-app-final-project",
       src: quiz,
     },
